@@ -1,0 +1,15 @@
+pre-commit:
+  parallel: true
+
+  commands:
+
+    lint:
+      root: frontend
+      glob: "frontend/**/*.{js,ts,jsx,tsx}"
+      run: yarn eslint {staged_files}
+      stage_fixed: true
+    
+    typecheck:
+      root: frontend
+      glob: "*.{js,ts,jsx,tsx}"
+      run: echo {staged_files} > /dev/null ; yarn typecheck;

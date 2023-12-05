@@ -1,0 +1,16 @@
+{
+    "apps" : [
+      {
+        "name": "frontend",
+        "script": "set -a; source .env; cd ./frontend && yarn dev --port 4444",
+        "watch": ".env",
+        "ignore_watch": []
+      },
+      {
+        "name": "prisma studio",
+        "script": "set -a; source .env; cd ./frontend && npx prisma studio",
+        "watch": ".env",
+        "ignore_watch": []
+      }
+    ]
+  }

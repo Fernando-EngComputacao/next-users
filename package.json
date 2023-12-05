@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@nestjs/cli": "^10.2.1",
+    "@nestjs/common": "^10.2.8",
+    "@prisma/client": "5.5.2",
+    "axios": "^1.6.0",
+    "nestjs": "^0.0.1",
+    "prisma": "5.5.2",
+    "react-icons": "^4.11.0"
+  }
+}

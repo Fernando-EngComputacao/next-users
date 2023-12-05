@@ -1,0 +1,13 @@
+*.tsbuildinfo
+.env*.local
+.env
+.vercel
+yarn-debug.log*
+yarn-error.log*
+next-env.d.ts
+/.next/
+/build
+/out/
+/node_modules
+node_modules
+.next
